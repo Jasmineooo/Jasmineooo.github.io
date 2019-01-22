@@ -3,8 +3,8 @@ title: Ama's Data World
 SEOTitle: Ama's Blog | Ama's Data World
 header-img: img/post-bg-desk.jpg       # not changed
 email: jasminezh16@gmail.com
-description: "It is well to think well; it is divine to act well. -- Horace Mann"
-keyword: "math lover, Ama Blog, Jasmine Zhang, Python, Math, Statistics, Machine Learning, Data Scientist"
+description: "数学爱好者 | a Math lover, programmer, engineer | 这里是Ama的个人博客，也是我的数据世界。"
+keyword: "math lover, data, data world, Jasmine Zhang, Python, Math, Statistics, Machine Learning, Data Scientist"
 url: "http://Jasmineooo.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Jasmineooo/Jasmineooo.github.io.git" # you code repository
