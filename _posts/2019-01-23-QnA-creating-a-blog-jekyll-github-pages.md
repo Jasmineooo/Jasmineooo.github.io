@@ -145,6 +145,69 @@ BY的博客模板中提供了weibo, zhihu, github, facebook, jianshu, twitter，
 
 
 
+
+## 5 Windows环境本地调试
+
+Windows环境下，请参考[解决办法by Caiyun](https://agcaiyun.cn/2017/09/10/personalBlog/)
+
+对应英文参考资料：[Run Jekyll on Windows](http://jekyll-windows.juthilo.com/1-ruby-and-devkit/)
+
+我在安装过程中遇到的问题也一并写入以下简要步骤里：
+
+- Get Ruby for Windows，安装 Ruby 2.3 及以上，起初我按Caiyun说的装了2.2，安装到后面出现Jekyll仅适用于至少Ruby 2.3版本，只好重装2.3，之后挺顺利的。
+
+- 按英文资料安装Ruby
+
+- Get the Ruby DevKit，按照说明Extract
+
+- 依次运行以下命令
+    ```markdown
+    <!-- 我装在了D盘里，所以这里是D:\ -->
+    cd D:\RubyDevKit
+    ruby dk.rb init
+    ruby dk.rb install 
+    ```
+
+- install Jekyll Gem，执行：
+  ```markdown
+  gem install jekyll
+  ```
+
+- install jekyll bundler，执行：
+  ```markdown
+  gem install jekyll bundler
+  ```
+
+- 进入blog所在文件夹，执行：
+  ```markdown
+  jekyll s
+  ```
+  或
+  ```markdown
+  jekyll serve
+  ```
+  这两个是一个意思
+
+- 如果没有问题，就可以去[http://127.0.0.1:4000/](http://127.0.0.1:4000/) 本地预览blog啦。
+
+- 可是，我的显示出错 Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly.
+
+- 于是，找到配置文件`_config.yml`，将 `gems: [jekyll-paginate]`中的`gems`改为 `plugins`
+
+- 执行命令
+  ```markdown
+  cd D:\RubyDevKit
+  gem install jekyll-paginate
+  ```
+
+- 回到blog所在文件夹，执行：
+  ```markdown
+  jekyll s
+  ```
+  这下没问题了，调试之后按`Control+C`停止serve。
+
+  
+
 ## 结语
 
 还有一些问题没有解决，比如百度和google收录，没有备案的网站是不是不好被快速收录呢？等等看吧~

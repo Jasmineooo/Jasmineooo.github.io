@@ -1,4 +1,4 @@
-# Site settings
+﻿# Site settings
 title: Ama's Data World
 SEOTitle: Ama's Blog | Ama's Data World
 header-img: img/post-bg-desk.jpg       # not changed
@@ -40,7 +40,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 
 
