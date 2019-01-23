@@ -108,7 +108,7 @@ BY的博客模板中提供了weibo, zhihu, github, facebook, jianshu, twitter，
 
 ​	这样点开后，会到搜狗微信公众号搜索的网页，算是解决了。
 
-3. 同理，在`_includes`文件夹中`footer.html`类似位置也添加类似代码，这样，网页底部也有了。如果想添加其他的，再去上面图标网站找。
+​	同理，在`_includes`文件夹中`footer.html`类似位置也添加类似代码，这样，网页底部也有了。如果想添加其他的，再去上面图标网站找。
 
 
 
