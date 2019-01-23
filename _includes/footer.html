@@ -89,16 +89,37 @@
                         </a>
                     </li>
                     {% endif %}
+
+                    <!-- add wechat account platform by Jasmineooo -->                    
+                    {% if site.wechat_username %}
+                    <li>
+                        <a target="_blank" href="https://weixin.sogou.com/weixin?type=1&s_from=input&query={{ site.wechat_username }}&ie=utf8&_sug_=n&_sug_type_=">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weixin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}                    
                 </ul>
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
-                    Theme on <a href="{{ site.github_repo }}">GitHub</a> |
-                    <iframe
+                    Theme on <a href="{{ site.github_repo }}">GitHub</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                    <!-- <iframe
                         style="margin-left: 2px; margin-bottom:-5px;"
                         frameborder="0" scrolling="0" width="100px" height="20px"
                         src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_username }}.github.io&type=star&count=true" >
-                    </iframe>
+                    </iframe> -->
+                    
+                    <!-- add count by Jasmineooo -->
+                    <i class="fa fa-user"></i><span id="busuanzi_container_site_uv">&nbsp;&nbsp;
+                    <span id="busuanzi_value_site_uv"></span>&nbsp;&nbsp;
+                    </span>
+                    <i class="fa fa-eye"></i><span id="busuanzi_container_site_pv">&nbsp;&nbsp;
+                    <span id="busuanzi_value_site_pv"></span>
+                    </span>
+
                 </p>
             </div>
         </div>
