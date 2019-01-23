@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Q&A: Creating a Blog with Jekyll and Github Pages
+title:      Q&A Creating a Blog with Jekyll and Github Pages
 subtitle:   CNAME & A Conflict? Want more functions?
 date:       2019-01-23
 author:     Ama
@@ -9,7 +9,6 @@ catalog: true
 tags:
     - Blog
 ---
-
 
 ## 前言
 
