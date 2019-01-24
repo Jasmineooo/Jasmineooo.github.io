@@ -18,8 +18,8 @@ sidebar-avatar: /img/about-JZ.jpg      # use absolute URL, seeing it's used in b
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-#zhihu_username:     qiubaiying
+weibo_username:     Amathlover
+zhihu_username:     Amathlover
 github_username:    Jasmineooo
 wechat_username:    English_MM
 #facebook_username:  baiying.qiu.7
@@ -87,7 +87,7 @@ ba_track_id: ec1f5ca2eb7467d6b266794764c25cec
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 
