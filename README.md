@@ -9,6 +9,23 @@
 [![](https://img.shields.io/github/stars/qiubaiying/qiubaiying.github.io.svg?style=social&label=Star)](https://github.com/qiubaiying/qiubaiying.github.io)
 [![](https://img.shields.io/github/forks/qiubaiying/qiubaiying.github.io.svg?style=social&label=Fork)](https://github.com/qiubaiying/qiubaiying.github.io)
 
+## 为了变成自己的blog，我做了什么？- Jasmineooo
+
+参考BY Blog之后，我的blog:[Ama's Data World](http://amathlover.com)终于诞生了，感谢各位前人，在前人的基础上，我做了如下修改和补充：
+
+详细说明在这里：[Q&A Creating a Blog with Jekyll and Github Pages](http://amathlover.com/2019/01/23/QnA-creating-a-blog-jekyll-github-pages/)
+
+### Update Log
+
+2019-01-23
+- 解析时，`CHAME`记录与`MX`记录冲突，分别设置`A`与`CHAME`记录
+- 增加更多社交账号，比如微信，豆瓣
+- 添加页面底部访问量
+- Windows环境本地调试
+
+
+---
+（以下为BY原文）
 
 博客的搭建教程修改自 [Hux](https://github.com/Huxpro/huxpro.github.io) 
  
