@@ -87,36 +87,34 @@ Windows下有MPic代替IPic，但只支持七牛。
 
 BY的博客模板中提供了weibo, zhihu, github, facebook, jianshu, twitter，而我还想加上微信wechat怎么办？No, 不是个人微信号，是我的微信公众号。解决办法如下：
 
-- `_config.yml`中找到 `# SNS settings`，添加`wechat_username: xxxxxxx` 写上公众号的微信号。
-- `_layouts`文件夹，`page.html` 中找到
-	```markdown
-	  {% if site.github_username %}
-	  ...
-	  {% endif %}
-	```
+文件`_config.yml`中找到 `# SNS settings`，添加`wechat_username: xxxxxxx` 写上公众号的微信号。
 
-- 在之后添加：
-	```markdown
-		{% if site.wechat_username %}
-		<li>
-		<a target="_blank" href="https://weixin.sogou.com/weixin?type=1&s_from=input&query={{ site.wechat_username }}&ie=utf8&_sug_=n&_sug_type_=">
-			<span class="fa-stack fa-lg">
-				<i class="fa fa-circle fa-stack-2x"></i>
-				<i class="fa fa-weixin fa-stack-1x fa-inverse"></i>
-			</span>
-		</a>
-		</li>
-		{% endif %}
-	```
+打开`_layouts`文件夹，`page.html` 中找到
+```markdown
+{% if site.github_username %}
+···
+{% endif %}
+```
+在之后添加：
+```markdown
+{% if site.wechat_username %}
+<li>
+	<a target="_blank" href="https://weixin.sogou.com/weixin?type=1&s_from=input&query={{ site.wechat_username }}&ie=utf8&_sug_=n&_sug_type_=">
+		<span class="fa-stack fa-lg">
+			<i class="fa fa-circle fa-stack-2x"></i>
+			<i class="fa fa-weixin fa-stack-1x fa-inverse"></i>
+		</span>
+	</a>
+</li>
+{% endif %}
+```
 
-- 图标代码在[Font Awesome](https://fontawesome.com/start)找哦，比如微信，就输入weixin或wechat就可以搜索了。
+图标代码在[Font Awesome](https://fontawesome.com/start)找哦，比如微信，就输入weixin或wechat就可以搜索了。
 添加后侧边栏效果如图：
 ![wechat](http://wx3.sinaimg.cn/mw690/007BDy7ngy1fzgft5413sj301t01udfl.jpg)
 这样点开后，会到搜狗微信公众号搜索的网页，算是解决了。
 
-- 同理，在`_includes`文件夹中`footer.html`类似位置也添加类似代码，这样，网页底部也有了。如果想添加其他的，再去上面图标网站找。
-
-
+同理，在`_includes`文件夹中`footer.html`类似位置也添加类似代码，这样，网页底部也有了。如果想添加其他的，再去上面图标网站找。
 
 ## 4 添加访问量
 
@@ -167,13 +165,13 @@ Windows环境下，请参考[解决办法by Caiyun](https://agcaiyun.cn/2017/09/
 - Get the Ruby DevKit，按照说明Extract
 
 - 依次运行以下命令
-    ```markdown
-    <!-- 我装在了D盘里，所以这里是D:\ -->
-    cd D:\RubyDevKit
-    ruby dk.rb init
-    ruby dk.rb install 
-    ```
-
+  ```markdown
+  <!-- 我装在了D盘里，所以这里是D:\ -->
+  cd D:\RubyDevKit
+  ruby dk.rb init
+  ruby dk.rb install 
+  ```
+  
 - install Jekyll Gem，执行：
   ```markdown
   gem install jekyll
