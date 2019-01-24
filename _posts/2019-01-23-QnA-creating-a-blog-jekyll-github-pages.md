@@ -88,7 +88,15 @@ Windows下有MPic代替IPic，但只支持七牛。
 BY的博客模板中提供了weibo, zhihu, github, facebook, jianshu, twitter，而我还想加上微信wechat怎么办？No, 不是个人微信号，是我的微信公众号。解决办法如下：
 
 1. `_config.yml`中找到 `# SNS settings`，添加`wechat_username: xxxxxxx` 写上公众号的微信号。
-2. `_layouts`文件夹，`page.html` 中找到 `{% if site.github_username %}` 这部分，在 `{% endif %}` 后添加：
+2. `_layouts`文件夹，`page.html` 中找到 
+
+```markdown
+{% if site.github_username %}
+...
+{% endif %}
+```
+
+在之后添加：
 
 ```markdown
 {% if site.wechat_username %}
