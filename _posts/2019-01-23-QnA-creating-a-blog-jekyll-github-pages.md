@@ -89,7 +89,6 @@ BY的博客模板中提供了weibo, zhihu, github, facebook, jianshu, twitter，
 
 - `_config.yml`中找到 `# SNS settings`，添加`wechat_username: xxxxxxx` 写上公众号的微信号。
 - `_layouts`文件夹，`page.html` 中找到
-
 ```markdown
   {% if site.github_username %}
   ...
@@ -97,7 +96,6 @@ BY的博客模板中提供了weibo, zhihu, github, facebook, jianshu, twitter，
 ```
 
 - 在之后添加：
-
 ```markdown
   {% if site.wechat_username %}
   <li>
