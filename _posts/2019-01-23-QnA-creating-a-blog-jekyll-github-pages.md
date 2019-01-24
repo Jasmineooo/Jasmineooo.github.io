@@ -91,13 +91,16 @@ BY的博客模板中提供了weibo, zhihu, github, facebook, jianshu, twitter，
 
 打开`_layouts`文件夹，`page.html` 中找到
 ```markdown
-{ % if site.github_username % }
+{% raw %}
+{% if site.github_username %}
 ···
-{ % endif % }
+{% endif %}
+{% endraw %}
 ```
 在之后添加：
 ```markdown
-{ % if site.wechat_username % }
+{% raw %}
+{% if site.wechat_username %}
 <li>
 	<a target="_blank" href="https://weixin.sogou.com/weixin?type=1&s_from=input&query={{ site.wechat_username }}&ie=utf8&_sug_=n&_sug_type_=">
 		<span class="fa-stack fa-lg">
@@ -106,7 +109,8 @@ BY的博客模板中提供了weibo, zhihu, github, facebook, jianshu, twitter，
 		</span>
 	</a>
 </li>
-{ % endif % }
+{% endif %}
+{% endraw %}
 ```
 （`{ %`导致上面代码块内容为空，故我给它俩之间加了空格，回头用的时候记得把空格去掉哦）
 
