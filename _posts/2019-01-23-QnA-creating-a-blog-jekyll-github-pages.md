@@ -1,4 +1,4 @@
----
+﻿---
 layout:     post
 title:      Q&A Creating a Blog with Jekyll and Github Pages
 subtitle:   CNAME & A Conflict? Want more functions?
@@ -112,7 +112,7 @@ BY的博客模板中提供了weibo, zhihu, github, facebook, jianshu, twitter，
 {% endif %}
 {% endraw %}
 ```
-（`{ %`导致上面代码块内容为空，故我给它俩之间加了空格，回头用的时候记得把空格去掉哦）
+
 
 图标代码在[Font Awesome](https://fontawesome.com/start)找哦，比如微信，就输入weixin或wechat就可以搜索了。
 添加后侧边栏效果如图：
