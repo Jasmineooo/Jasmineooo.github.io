@@ -14,7 +14,7 @@ tags:
 
 耿耿于怀多少年，辗转多个blog平台，也许是平台不合适，亦或是懒癌发作不愿写，至今并未留下超过一只手的博文。
 
-这些天，偶然发现Github Pages可以当作个人blog，参考[博客搭建详细教程](https://github.com/qiubaiying/qiubaiying.github.io/wiki/博客搭建详细教程)后，*在此感谢前人BY, Huxpro 等）*，我的blog：**Ama's Data World**便诞生了，还买了个域名：[**amathlover.com**](amathlover.com)，准备大干一场，希望不是空话。
+这些天，偶然发现Github Pages可以当作个人blog，参考[博客搭建详细教程](https://github.com/qiubaiying/qiubaiying.github.io/wiki/博客搭建详细教程)后，*在此感谢BY, Huxpro等*，有前人栽树，我的blog：**Ama's Data World**才能诞生，还买了个域名：[**amathlover.com**](amathlover.com)，准备大干一场，希望不是空话。
 
 回想过去，总是想得太多，做得太少，今起，是否要踏踏实实地码字写文呢？且看行动吧。
 
