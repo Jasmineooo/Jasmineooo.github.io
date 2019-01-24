@@ -27,7 +27,7 @@
                     {% endif %}
                     {% if site.twitter_username %}
                     <li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
+                        <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -57,7 +57,28 @@
                         </a>
                     </li>
                     {% endif %}
-
+                    
+                    <!-- add wechat account platform, douban by Jasmineooo -->                    
+                    {% if site.wechat_username %}
+                    <li>
+                        <a target="_blank" href="https://weixin.sogou.com/weixin?type=1&s_from=input&query={{ site.wechat_username }}&ie=utf8&_sug_=n&_sug_type_=">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weixin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.douban_username %}
+                            <li>
+                                <a target="_blank" href="https://www.douban.com/people/{{ site.jianshu_username }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa  fa-stack-1x fa-inverse">豆</i>
+                                    </span>
+                                </a>
+                            </li>
+                    {% endif %}
 
                     {% if site.facebook_username %}
                     <li>
@@ -90,17 +111,7 @@
                     </li>
                     {% endif %}
 
-                    <!-- add wechat account platform by Jasmineooo -->                    
-                    {% if site.wechat_username %}
-                    <li>
-                        <a target="_blank" href="https://weixin.sogou.com/weixin?type=1&s_from=input&query={{ site.wechat_username }}&ie=utf8&_sug_=n&_sug_type_=">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-weixin fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}                    
+                    
                 </ul>
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
