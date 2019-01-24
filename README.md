@@ -11,7 +11,7 @@
 
 ## 为了变成自己的blog，我做了什么？- Jasmineooo
 
-参考BY Blog之后，我的blog:[Ama's Data World](http://amathlover.com)终于诞生了，感谢各位前人，在前人的基础上，我做了如下修改和补充：
+参考BY Blog之后，我的blog: [Ama's Data World](http://amathlover.com)终于诞生了，感谢各位前人，在前人的基础上，我做了如下修改和补充：
 
 详细说明在这里：[Q&A Creating a Blog with Jekyll and Github Pages](http://amathlover.com/2019/01/23/QnA-creating-a-blog-jekyll-github-pages/)
 
