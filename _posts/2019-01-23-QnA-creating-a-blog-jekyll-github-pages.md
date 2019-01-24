@@ -91,24 +91,24 @@ BY的博客模板中提供了weibo, zhihu, github, facebook, jianshu, twitter，
 2. `_layouts`文件夹，`page.html` 中找到 
 
 ```markdown
-{% if site.github_username %}
-...
-{% endif %}
+ {% if site.github_username %}
+ ...
+ {% endif %}
 ```
 
 在之后添加：
 
 ```markdown
-{% if site.wechat_username %}
-<li>
+ {% if site.wechat_username %}
+ <li>
 	<a target="_blank" href="https://weixin.sogou.com/weixin?type=1&s_from=input&query={{ site.wechat_username }}&ie=utf8&_sug_=n&_sug_type_=">
 		<span class="fa-stack fa-lg">
 			<i class="fa fa-circle fa-stack-2x"></i>
 			<i class="fa fa-weixin fa-stack-1x fa-inverse"></i>
 		</span>
 	</a>
-</li>
-{% endif %}
+ </li>
+ {% endif %}
 ```
 
 图标代码在[Font Awesome](https://fontawesome.com/start)找哦，比如微信，就输入weixin或wechat就可以搜索了。
