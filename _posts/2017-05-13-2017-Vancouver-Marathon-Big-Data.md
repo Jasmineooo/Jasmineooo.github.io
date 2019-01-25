@@ -100,6 +100,7 @@ tags:
 
 其中，Hill Climb（1.5km）是一段上坡。由于最后的Finish（2.2km）多加了从枪响到芯片通过起点开始计时的时间，这里做了下处理，Finish段的实际配速为：
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 $$
 \begin{eqnarray*}
 Pace_{real}&=&Pace_{recorded}-(Pace_{Gun\,average}-Pace_{Chip\,average})\times\frac{Distance_{Total}}{Distance_{Finish}}\\
