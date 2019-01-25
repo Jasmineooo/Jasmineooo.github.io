@@ -17,7 +17,7 @@ tags:
 
 温哥华马拉松始于1972年，是加拿大第二大马拉松赛事，历史悠久，赛道风景优美，再加上极棒的赛事组织。《福布斯》杂志授予它“全球十佳马拉松”，CNN称它为“世界上最值得参加的马拉松”之一。
 
-我的首马回忆详见：[70天，从十公里到全马](amathlover.com/2017/05/11/70-Days-From-10K-to-Full-Marathon/)
+我的首马回忆详见：[70天，从十公里到全马](http://amathlover.com/2017/05/11/70-Days-From-10K-to-Full-Marathon/)
 
 <img src="http://wx4.sinaimg.cn/large/007BDy7nly1fziwp7snd4j30rs0kujw4.jpg"  style="zoom:60%">
 
