@@ -177,8 +177,7 @@ print (addone(99))      # 100
 ```
 
 ## 刷题增加熟练度
-[Kaggle](https://www.kaggle.com/)
-
+[Kaggle](https://www.kaggle.com/) 
 [浙江大学ACM的Online Judge](http://acm.zju.edu.cn/onlinejudge/showProblemsets.do)
 
 ###  [A+B Problem](http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=1001)
@@ -240,6 +239,5 @@ print (s)
 ```
 
 ## 参考资料
-[1] 极客时间-数据分析实战第三讲
-
+[1] 极客时间-数据分析实战第三讲 
 [2] [异常处理](http://www.runoob.com/python/python-exceptions.html)
